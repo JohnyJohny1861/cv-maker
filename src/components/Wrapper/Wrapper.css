@@ -1,0 +1,50 @@
+.Wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 0;
+    line-height: 1.2;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+}
+.Wrapper-head {
+    border-bottom: 2px solid #f5ae45d3;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.Wrapper_Control {
+    margin-left: auto;
+    cursor: pointer;
+}
+.Wrapper_Control i {
+    transition: all .2s;
+}
+.Wrapper_Control .Wrapper_Add {
+    margin-right: 15px;
+    color: darkcyan;
+}
+.Wrapper_Control .Wrapper_Delete {
+    color: #ff4f4f;
+    margin-right: 10px;
+}
+.Wrapper_Add:hover,
+.Wrapper_Delete:hover {
+    transform: translateY(-2px);
+}
+.Wrapper_Add:active,
+.Wrapper_Delete:active {
+    transform: translateY(2px);
+}
+
+.Wrapper-title {
+    display: inline-block;
+    padding: 1rem 5rem;
+    border-radius: 3px;
+    background-color: #f5af45d3;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+}

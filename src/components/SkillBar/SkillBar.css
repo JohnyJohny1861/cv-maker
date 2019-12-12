@@ -1,0 +1,55 @@
+.SkillBar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 3rem;
+    line-height: 1.5;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+}
+.SkillBar-head {
+    border-bottom: 2px solid #f5ae45d3;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.SkillBar-title {
+    display: inline-block;
+    padding: 1rem 6rem;
+    background-color: #f5af45d3;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+}
+.SkillBar_Control {
+    margin-left: auto;
+    cursor: pointer;
+}
+.SkillBar_Control i {
+    transition: all .2s;
+}
+.SkillBar_Control .SkillBar_Add {
+    margin-right: 15px;
+    color: darkcyan;
+}
+.SkillBar_Control .SkillBar_Delete {
+    color: #ff4f4f;
+    margin-right: 10px;
+}
+.SkillBar_Add:hover,
+.SkillBar_Delete:hover {
+    transform: translateY(-2px);
+}
+.SkillBar_Add:active,
+.SkillBar_Delete:active {
+    transform: translateY(2px);
+}
+
+.SkillBar-list {
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 1.7rem;
+}

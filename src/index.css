@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    list-style: none;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 7rem 2rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 835px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 40%;    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 30%;    
+  }
+  body {
+    padding: 7rem 0;
+  }
+}
+

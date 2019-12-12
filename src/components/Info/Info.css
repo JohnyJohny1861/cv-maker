@@ -1,0 +1,42 @@
+.Info {
+    flex: 0 1 75%;
+    padding-left: 3rem;
+}
+.Info-fullName {
+    color: #f5ae45;
+    font-size: 5.5rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+}
+.Info-inlineList {
+    list-style-type: disc;
+    font-size: 1.9rem;
+    border-top: 2px solid #f5ae45;
+    /* border-bottom: 2px solid #f5ae45; */
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.Info-inlineList li {
+    margin: 5px auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .Info {
+        flex: 0 1 65%;
+        padding-left: 2rem;
+    }
+    .Info-fullName {
+        font-size: 4rem;
+    }
+    .Info-inlineList{
+        font-size: 1.6rem;
+    }
+}

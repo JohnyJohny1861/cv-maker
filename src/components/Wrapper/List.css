@@ -1,0 +1,29 @@
+.Wrapper-value_list {
+    padding-left: 1rem;
+    padding-top: .5rem;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.3;
+}
+.List_Item {
+    display: flex;
+    align-items: center;
+    padding: .2rem 0;
+}
+.Iterator {
+    color: #bdbdbd;
+    font-size: .9rem;
+}
+.Item_Remove {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #ff4f4f;
+    transition: all .2s;
+}
+.Item_Remove:hover {
+    transform: translateY(-1px);
+}
+.Item_Remove:active {
+    transform: translateY(1px);
+}

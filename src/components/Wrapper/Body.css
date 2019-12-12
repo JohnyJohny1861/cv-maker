@@ -1,0 +1,87 @@
+.Wrapper-body {
+    display: flex;
+    position: relative;
+    padding: 0 1.5rem;
+}
+.Wrapper-body:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
+.Wrapper-key {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.Wrapper-key_title, .Wrapper-value_title {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.Wrapper-key_subTitle {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.Wrapper-key_subTitle i {
+    color: #bdbdbd;
+    font-size: .9rem;
+    transform: scaleX(1.7);
+}
+.Wrapper-value {
+    flex: 0 1 60%;
+    padding-left: 3rem;
+}
+.Wrapper-value_title {
+    font-style: italic;
+}
+.Wrapper-value_subTitle {
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.Body_control {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Body_subtitle {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e7eaff;
+    margin-right: 2px;
+    transition: all .2s;
+}
+.Wrapper_delete {
+    font-size: 2.5rem;
+    padding: 10px;
+    color: #ff4f4f;
+    transition: all .2s;
+}
+.Wrapper_delete:hover,
+.Body_subtitle:hover {
+    transform: translateY(-1px);
+}
+.Wrapper_delete:active,
+.Body_subtitle:active {
+    transform: translateY(2px);
+}
+
+.AddItem {
+    margin-left: 5px;
+    color: darkcyan;
+    cursor: pointer;
+    transition: all .2s;
+}
+.AddItem:hover {
+    transform: translateY(-1px);
+}
+.AddItem:active {
+    transform: translateY(1px);
+}
+
+span.textChange,
+a.textChange,
+i.textChange{
+    display: inline-block;
+}

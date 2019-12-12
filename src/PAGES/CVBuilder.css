@@ -1,0 +1,84 @@
+.CVBuilder {
+    position: relative;
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 3rem;
+    padding-bottom: 2rem;
+    border: 1px solid #b3b3b3;
+    background-color: rgba(255, 255, 255, 0.99);
+}
+
+.input {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    color: inherit;
+    font: inherit;
+    border: 1px solid #f5ae45;
+    border-radius: 10px;
+    outline: none;
+    display: inherit;
+    padding: inherit;
+    font-size: inherit;
+    margin: inherit;
+}
+
+.input::placeholder {
+    color: inherit;
+    font-weight: 300;
+    text-align: center;
+}
+
+.textChange {
+    text-transform: capitalize;
+}
+
+@media (max-width: 1200px) {
+    .CVBuilder {
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .CVBuilder {
+        max-width: 80rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .CVBuilder {
+        max-width: 70rem;
+        margin: 0 0 0 3rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .CVBuilder {
+        max-width: 65rem;
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .CVBuilder {
+        max-width: 70rem;
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .CVBuilder {
+        max-width: 75rem;
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .CVBuilder {
+        padding: 1rem;
+        max-width: 65rem;
+    }
+}

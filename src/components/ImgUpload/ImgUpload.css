@@ -1,0 +1,48 @@
+.ImgUpload {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-self: stretch; 
+}
+
+.ImgUpload-file {
+    display: none;
+}
+
+.ImgUpload-img{
+    width: 100%;
+    object-fit: cover;
+    border: 3px double #f5ae45;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1.5rem rgb(201, 200, 200);
+    filter: grayscale(10%) brightness(110%);
+    position: relative;
+}
+
+.Img_control {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    padding: 10px 0;
+}
+progress {
+    width: 90%;
+    margin: 12px auto 0 auto;
+}
+
+.Img_control p {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: darkcyan;
+    color: #f8e3c4;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all .2s;
+}
+.Img_control p:hover {
+    transform: translateY(-1px);
+}
+.Img_control p:active {
+    transform: translateY(2px);
+}
